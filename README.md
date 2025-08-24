@@ -19,7 +19,7 @@ Getting started with SCL is simple:
 
 1. Go to the **Soft Chimp Locomotion** folder.
 2. Drag the **SCL V10** (or newer) prefab into your Unity scene.
-3. By default, it will load with 3 **Movement Settings Profile's**, [By Default set to In-Between] so your player can move right away.
+3. By default, it will load with 3 **Movement Settings Profiles**, [By Default set to In-Between] so your player can move right away.
 4. To customize, open the **Motion Settings** script under **Chimp** and either adjust the current profile or create a new one.
 
 # Thank you for Consitering Soft Chimp Locomotion, enjoy building, tweaking, and experimenting with it!
