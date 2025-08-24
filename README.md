@@ -1,20 +1,25 @@
-# About The Soft Chimp Locomotion Package.
-This is the Locomotion used In Chimps Life, Recharge, and Some Other Games out there, Anemunt and Terminal made it, and The Rights belong to Both of them
+# Soft Chimp Locomotion (SCL)
 
-# Movement Properties
+## -- About --
 
-The Locomotion Has some Properties you can edit Inside the Chimp Empty,
+Soft Chimp Locomotion (SCL) is a customizable locomotion system used in games like *Chimps Life*, *Recharge*, and more.
+It was created by **Anemunt** and **Terminal**, with rights belonging to both.
 
-Inside the empty will be a Motion Settings script, That script allows you to edit the movement from there Simply,
+## -- Movement Properties --
 
-But if you're feeling A Bit Experimental?
+*SCL includes a flexible movement system that can be tuned through the **Motion Settings** script, located under the **Chimp** object inside the prefab.*
 
-Then Go Inside hands and Select both the Left and Right Emptys, Inside will be the main Core of the locomotion, which allows you to move!
+* **Motion Settings** now includes a **Movement Settings Profile system**,
+  this lets you create and swap between different physics settings, for example: realistic, arcade-style, or experimental.
+* All core locomotion values are controlled here, no need to directly edit the hand objects anymore.
 
-# Setup
+## --Setup --
 
-Apart from that, The Locomotion is pretty easy to set up, Go To the Soft Chimp Locomotion and Drag the Soft Chimp Locomotion Prefab into the scene,
+Getting started with SCL is simple:
 
-and The Movement Should Work on The Default Settings ( Between In Motion Settings )
+1. Go to the **Soft Chimp Locomotion** folder.
+2. Drag the **SCL V10** (or newer) prefab into your Unity scene.
+3. By default, it will load with 3 **Movement Settings Profile's**, [By Default set to In-Between] so your player can move right away.
+4. To customize, open the **Motion Settings** script under **Chimp** and either adjust the current profile or create a new one.
 
-# Thank you for using the movement And Enjoy Using it!
+# Thank you for Consitering Soft Chimp Locomotion, enjoy building, tweaking, and experimenting with it!
