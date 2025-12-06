@@ -2,7 +2,7 @@
 ============
 
 There are several guides for SCL developers and users. These guides can be found
-in a number of formats and places such as Youtube or the Orginal github repo.
+in a number of formats and places such as Youtube or the Original github repo.
 
 There are various text files in the Documentation/ subdirectory,
 several of them using the reStructuredText markup notation.
