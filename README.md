@@ -25,7 +25,7 @@ It was created by **Anemunt** and **Terminal**, with rights belonging to both.
 Here’s a quick example showing how to access the **Chimp** object and tweak gravity for the active profile:
 
 ```csharp
-using SoftChimpLocomotion;
+using SoftChimpLocomotion; // newer versions will now use SCL as the namespace though lol.
 using UnityEngine;
 
 public class ChimpGravityExample : MonoBehaviour
