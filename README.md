@@ -1,6 +1,5 @@
 # Soft Chimp Locomotion (SCL)
-
-This project is a part of many movement systems I use in my main games. If you'd like to support me, feel free to do so here: [https://bmc.link/anemunt](https://bmc.link/anemunt)
+This project is a part of the movement system I use in Recharge. If you'd like to support me, feel free to do so here: [https://bmc.link/anemunt](https://bmc.link/anemunt)
 
 ## -- About --
 Soft Chimp Locomotion (SCL) is a customizable locomotion system used in games like *Chimps Life*, *Recharge*, and more.
@@ -9,8 +8,8 @@ It was created by **Anemunt** and **Terminal**, with rights belonging to both.
 ## -- Movement Properties --
 *SCL includes a flexible movement system that can be tuned through the **Motion Settings** script, located under the **Chimp** object inside the prefab.*
 * **Motion Settings** now includes a **Movement Settings Profile system**,
-  this lets you create and swap between different physics settings, for example: realistic, arcade-style, or experimental.
-* All core locomotion values are controlled here, no need to directly edit the hand objects anymore.
+  which lets you create and swap between different physics settings, for example: realistic, arcade-style, or experimental.
+* All core locomotion values are controlled here; there is no need to directly edit the hand objects anymore.
 
 ## -- Setup --
 ### Getting started with SCL is simple:
@@ -26,6 +25,7 @@ Here’s a quick example showing how to access the **Chimp** object and tweak gr
 
 ```csharp
 using SoftChimpLocomotion; // newer versions (V11 and up) will now use SCL as the namespace though lol.
+// older versions currently use `using SoftChimpMotion;`.
 using UnityEngine;
 
 public class ChimpGravityExample : MonoBehaviour
@@ -51,4 +51,4 @@ public class ChimpGravityExample : MonoBehaviour
 * `currentProfile.gravity` can be changed in code or via the inspector.
 * Other values like speed, jump height, or friction work the same way if you want to play around with them.
 
-Thank you for considering Soft Chimp Locomotion, enjoy building, tweaking, and experimenting with it!
+Thank you for considering Soft Chimp Locomotion. Enjoy building, tweaking, and experimenting with it!
